@@ -1,0 +1,34 @@
+# creating a folder
+
+E:\>mkdir Attainu
+
+E:\>cd attainu
+
+# creating a sub folder
+
+E:\Attainu>mkdir Robin
+
+E:\Attainu>cd robin
+
+# creating a new txt file 
+
+E:\Attainu\Robin>echo one of the habit of effective programmers is that they always maintain a system for Version Controlling. For those who aren't aware, Version Control is a configuration management system where you can track and manage the changes done in documents, programs, websites, etc. > good_habbits_of_a_programmer.txt
+
+E:\Attainu\Robin>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 3E0D-C603
+
+ Directory of E:\Attainu\Robin
+
+21-01-2020  PM 08:43    <DIR>          .
+21-01-2020  PM 08:43    <DIR>          ..
+21-01-2020  PM 08:43               275 good_habbits_of_a_programmer.txt
+               1 File(s)            275 bytes
+               2 Dir(s)  231,402,106,880 bytes free
+
+# Viewing content in the txt file
+
+E:\Attainu\Robin>type good_habbits_of_a_programmer.txt
+one of the habit of effective programmers is that they always maintain a system for Version Controlling. For those who aren't aware, Version Control is a configuration management system where you can track and manage the changes done in documents, programs, websites, etc.
+
+E:\Attainu\Robin>
